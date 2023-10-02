@@ -1,0 +1,97 @@
+import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretRight, } from "@fortawesome/free-solid-svg-icons";
+
+const creativeGhostWriters = () => {
+    return (
+        <>
+            <section className="our-bringing py-16">
+                <div className="container mx-auto max-w-7xl">
+                    <div className="text-center mb-8 heading">
+                        <h6 className="font-semibold">
+                            GET YOUR
+                        </h6>
+                        <h2 className='lg:text-4xl font-semibold'>
+                            Press Releases Covered <br />  By The Right Sites 
+                        </h2>
+                        <p className="mt-4 max-w-[60%] mx-auto">
+                        Press Release gives you maximum acquaintance, which is done by selecting your target audience through media and the targeted niche.
+                        </p>
+                    </div>
+                    <div className="flex">
+                        <div className='w-8/12 p-8 items-center'>
+                            <ul className="grid grid-cols-2 grid-rows-1 md:grid-cols-2  space-x-5  ">
+                                <li></li><li></li>
+                                <li className="mb-6 bg-[#edeff3] px-3 py-3 flex space-x-2 rounded-lg">
+                                    <img src='/assets/images/newimg/ebook-check.png'/>
+                                    <h4 className="text-lg font-semibold items-center">
+                                        EIN Presswire
+                                    </h4>
+                                    
+                                </li>
+                                <li className="mb-6 bg-[#edeff3] px-3 py-3 flex space-x-2">
+                                <img src='/assets/images/newimg/ebook-check.png'/>
+                                    <h4 className="text-lg font-semibold items-center">
+                                        eReleases
+                                    </h4>
+                                    
+                                </li>
+                                <li className="mb-6 bg-[#edeff3] px-3 py-3 flex space-x-2">
+                                <img src='/assets/images/newimg/ebook-check.png'/>
+                                    <h4 className="text-lg font-semibold items-center">
+                                        IssueWire
+                                    </h4>
+                                    
+                                </li>
+                                <li className="mb-6 bg-[#edeff3] px-3 py-3 flex space-x-2">
+                                <img src='/assets/images/newimg/ebook-check.png'/>
+                                    <h4 className="text-lg font-semibold items-center">
+                                        Linking News
+                                    </h4>
+                                    
+                                </li>
+                                <li className="mb-6 bg-[#edeff3] px-3 py-3 flex space-x-2">
+                                <img src='/assets/images/newimg/ebook-check.png'/>
+                                    <h4 className="text-lg font-semibold items-center">
+                                        Newswire
+                                    </h4>
+                                    
+                                </li>
+                                <li className="mb-6 bg-[#edeff3] px-3 py-3 flex space-x-2">
+                                <img src='/assets/images/newimg/ebook-check.png'/>
+                                    <h4 className="text-lg font-semibold items-center">
+                                        PR Distribution
+                                    </h4>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="w-4/12 py-5">
+                            <img src="/assets/images/newimg/newspaper-press-release.png" alt="Newspaper Press Release" />
+                        </div>
+
+                    </div>
+                    <div class="display-block mt-6 cursor-pointer px-8">
+                        <a href="javascript:;" data-fancybox="" data-src="#popupform" class="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
+                            Get Started <FontAwesomeIcon icon={faCaretRight} />
+                        </a>
+                        <a href="javascript:;" class="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                            Live Chat
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+            <section class="compose bg-[#e1b433] py-[30px]">
+                <div class="container max-w-7xl mx-auto text-left">
+                    <p class="text-lg font-medium">
+                        Call us or send us an email, and our experts will walk you through the entire process, requirements, and packages for ghostwriting services for your book! Please contact us by phone or start a live chat. <span><a href="tel:+1 (855) 469-7509" className="hover:text-black font-bold">+1 (855) 469-7509</a>, or start a <a href="#" className="hover:text-black font-bold">live chat.</a></span>
+                    </p>
+                </div>
+            </section>
+
+        </>
+    )
+}
+
+export default creativeGhostWriters

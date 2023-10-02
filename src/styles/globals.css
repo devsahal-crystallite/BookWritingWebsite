@@ -1,0 +1,395 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --fontweb: 'inter', 'sans-serif';
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+body{
+  font-family: var(--fontweb);
+  color:#222e41;
+}
+a:hover {
+  color: #46ac65 !important;
+  text-decoration: none !important;
+}
+.svg-container {
+  display: flex;
+  place-items: flex-end;
+  height: 100%;
+  align-items: center;
+  justify-content: center
+}
+
+.svg-container img {
+  position: absolute;
+  width: 40%;
+  display: block;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease
+}
+
+.adventure-image {
+  -webkit-transition: background-position 2s ease;
+  -moz-transition: background-position 2s ease;
+  -ms-transition: background-position 2s ease;
+  -o-transition: background-position 2s ease;
+  transition: background-position 2s ease;
+  background: rgb(135,204,230);
+  background: linear-gradient(90deg,rgba(135,204,230,1) 0%,rgba(217,224,238,1) 51%,rgba(189,167,215,1) 100%)
+}
+
+.adventure-image .image-adventure {
+  opacity: 1
+}
+
+.romance-image {
+  -webkit-transition: background-position 1s ease;
+  -moz-transition: background-position 1s ease;
+  -ms-transition: background-position 1s ease;
+  -o-transition: background-position 1s ease;
+  transition: background-position 1s ease;
+  background: rgb(110,223,226);
+  background: linear-gradient(156deg,rgba(110,223,226,1) 0%,rgba(223,218,192,1) 100%)
+}
+
+.romance-image .image-romance {
+  opacity: 1
+}
+
+.text-typed {
+  color: #62e389;
+  text-transform: uppercase;
+  background: #000;
+  padding: 2px 10px;
+  margin: 10px 0
+}
+
+.mystery-image {
+  -webkit-transition: background-position 1s ease;
+  -moz-transition: background-position 1s ease;
+  -ms-transition: background-position 1s ease;
+  -o-transition: background-position 1s ease;
+  transition: background-position 1s ease
+}
+
+.mystery-image .image-mystery {
+  opacity: 1;
+}
+
+.self-help-image {
+  -webkit-transition: background-position 1s ease;
+  -moz-transition: background-position 1s ease;
+  -ms-transition: background-position 1s ease;
+  -o-transition: background-position 1s ease;
+  transition: background-position 1s ease;
+  background: rgb(248,237,230);
+  background: linear-gradient(156deg,rgba(190,168,216,1) 0%,rgba(25,179,216,1) 100%)
+}
+
+.self-image .image-self {
+  opacity: 1
+}
+
+.mystery-image .image-mystery {
+  opacity: 1
+}
+
+.adventure-image .image-adventure {
+  opacity: 1
+}
+
+.slider-home p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.children-image .image-children {
+  opacity: 1;
+}
+
+.business-image .image-business {
+  opacity: 1;
+}
+
+.business-image {
+  -webkit-transition: background-position 2s ease;
+  -moz-transition: background-position 2s ease;
+  -ms-transition: background-position 2s ease;
+  -o-transition: background-position 2s ease;
+  transition: background-position 2s ease;
+  background: #87cce6;
+  background: linear-gradient(90deg,#87cce6 0%,#d9e0ee 51%,#cafdda 100%);
+}
+
+.self-image {
+  -webkit-transition: background-position 2s ease;
+  -moz-transition: background-position 2s ease;
+  -ms-transition: background-position 2s ease;
+  -o-transition: background-position 2s ease;
+  transition: background-position 2s ease;
+  background: #87cce6;
+  background: linear-gradient(90deg,#eaebec 0%,#d9e0ee 51%,#d6d9eb 100%);
+}
+
+.children-image {
+  -webkit-transition: background-position 2s ease;
+  -moz-transition: background-position 2s ease;
+  -ms-transition: background-position 2s ease;
+  -o-transition: background-position 2s ease;
+  transition: background-position 2s ease;
+  background: #87cce6;
+  background: linear-gradient(90deg,#cafdda 0%,#d9e0ee 51%,#d0cee7 100%);
+}
+
+.mystery-image {
+  -webkit-transition: background-position 2s ease;
+  -moz-transition: background-position 2s ease;
+  -ms-transition: background-position 2s ease;
+  -o-transition: background-position 2s ease;
+  transition: background-position 2s ease;
+  background: #87cce6;
+  background: linear-gradient(90deg,#9cddf9 0%,#e6d2fd 51%,#bea8d8 100%);
+}
+.none-active{
+  display: none;
+}
+.active{
+  display: block;
+}
+.heading h6{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #62e389;
+    display: inline-block;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    clip-path: polygon(0 0,95% 0,100% 100%,0% 100%);
+    padding-right: 20px;
+}
+.exceptional:before {
+  content: '';
+  background: url(/assets/images/newimg/exceptional-patern.png)no-repeat;
+  height: 705px;
+  width: 998px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pattern-bg:before {
+  content: '';
+  background: url(/assets/images/newimg/exceptional-patern.png)no-repeat;
+  height: 705px;
+  width: 998px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.exceptional-list {
+  background: url(/assets/images/newimg/exceptional-list.png) no-repeat;
+  margin-top: -360px;
+  padding: 0;
+  height: 436px;
+  position: relative;
+  z-index: 1;
+}
+
+.webcopywriting-list {
+  background: url(/assets/images/newimg/exceptional-list.png) no-repeat;
+  /* margin-top: -360px; */
+  padding: 0;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+.webcopywriting-list:before {
+  content: "";
+  width: 370px;
+  position: absolute;
+  animation: 0;
+  right: 100%;
+  background-color: #05193c;
+  height: 100%;
+  top: 0;
+}
+.webcopywriting-list:after {
+  content: "";
+  width: 120px;
+  height: 200px;
+  position: absolute;
+  bottom: 80%;
+  z-index: -2;
+  right: 0;
+  background-image: url(/assets/images/newimg/dotted-web-copy.png);
+  background-position: bottom;
+}
+
+
+.bookwriting:before {
+  content: '';
+  background: url(/assets/images/newimg/pattern-2.png)no-repeat;
+  height: 705px;
+  width: 910px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid;
+  position: relative;
+  padding: 8px 20px;
+  transition: .5s all;
+  z-index: 2;
+}
+.btn:after {
+  content: '';
+  background: #62e389;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: .5s all;
+  z-index: -1;
+}
+
+.btn-black-border:after {
+  background: #16295c;
+}
+.btn:hover:after {
+  width: 100%;
+}
+
+.our-process ul:before {
+  content: '';
+  background: #edeff3;
+  height: 8px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.our-amazing h2:before {
+  content: '';
+  height: 100px;
+  width: 6px;
+  background: #63e28b;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+.our-process .box {
+  transform: scale(1);
+}
+
+.our-process .box .img img {
+  display: initial;
+}
+.our-process .box:hover .img {
+  background: #e5ce4e;
+  translate: scale(1.1);
+}
+.our-process .box:hover .img img {
+  filter: brightness(0.1);
+}
+.our-process .box:hover p {
+  color: #fff;
+}
+.testimonial .item h5 {
+  margin: 0;
+  background: #e1b433;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 14px;
+  clip-path: polygon(0 0,100% 0,94% 100%,0% 100%);
+}
+
+.testimonial .slick-dots li button:before{
+  font-size: 13px;
+}
+
+.testimonial .slick-dots li {
+  
+  margin: 0 -1px;
+ 
+}
+
+.testimonial .slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #62e389;
+}
+
+.seo-writing-inner .box h4:before {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #62e389;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.article-writing-inner .box h4:before {
+  content: "";
+  width: 60px;
+  height: 7px;
+  background-color: #62e389;
+  position: absolute;
+  top: 0;
+  
+  left: 0;
+  margin: auto;
+}
+.item{
+  height: 200px;
+}
+section.headercontactform:before {
+  content: '';
+  background: url('/assets/images/newimg/contactformbg1.png') no-repeat;
+  height: 418px;
+  width: 346px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+
+.affo{
+  background: url('/assets/images/newimg/ghost-banner.png');
+  background-repeat: no-repeat;
+}
+.seo{
+  background: url('/assets/images/newimg/seo-writing-banner.png');
+  background-repeat: no-repeat;
+}
+.article{
+  background: url('/assets/images/newimg/banner-article-writing.jpg');
+  background-repeat: no-repeat;
+}

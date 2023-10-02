@@ -1,0 +1,56 @@
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+const bookWriting = () => {
+    return (
+        <>
+            <section className="bookwriting relative pt-20 pb-20 text-[#05193c]">
+                <div className="container mx-auto justify-center items-center">
+                    <div className='max-w-7xl mx-auto grid grid-cols-2 grid-rows-1 items-center justify-center right-80'>
+                        <div>
+                        <div className="heading">
+                            <h6>
+                                Are you in Pursuit of
+                            </h6>
+                            <h2 className='lg:text-[34px] font-bold capitalize leading-10'>
+                                Getting Your Book Written By<br></br>
+                                the Top Industry Experts?
+                            </h2>
+                        </div>
+                        <p className='text-[15px] text-[#05193c] mb-2 leading-6	'>
+                            Your million-dollar story is worth bringing alive. And for that, our ghostwriters are dedicated to the execution of your book and work tirelessly to mold the story into the form of a picture-perfect book. We guarantee that the services you take from us are truly unmatchable, and you are sure to meet your desired results.
+                        </p>
+                        
+                        <p className='text-[15px] text-[#05193c] mb-4 leading-6	'>
+                            To give our customers a high-end result, we have hired professional experts with years of experience that are the most demanded. Therefore, don’t worry while choosing Barnett Ghostwriting for your service because working with us means getting the best.
+                        </p>
+                        <ul>
+                            <li className='flex'>
+                                <img src="/assets/images/newimg/black-check.png" alt="" />Being published on all online platforms, such as Kindle.
+                            </li>
+                            <li className='flex'>
+                                <img src="/assets/images/newimg/black-check.png" alt="" />An eye-catching cover design.
+                            </li>
+                            <li className='flex'>
+                                <img src="/assets/images/newimg/black-check.png" alt="" />Fast and affordable self-publishing.
+                            </li>
+                            <li className='flex'>
+                                <img src="/assets/images/newimg/black-check.png" alt="" />Additions, revisions, and re-editions!
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="z-10">
+                        <img src="/assets/images/newimg/pursuit-img.webp" className="float-left max-w-[unset] absolute top-10 right-0" alt="ghostwriting agency" />
+                    </div>
+                    </div>
+                    
+
+                </div>
+            </section>
+        </>
+
+    )
+}
+
+export default bookWriting
