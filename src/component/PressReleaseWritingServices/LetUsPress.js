@@ -82,13 +82,7 @@ const creativeGhostWriters = () => {
                 </div>
 
             </section>
-            <section class="compose bg-[#e1b433] py-[30px]">
-                <div class="container max-w-7xl mx-auto text-left">
-                    <p class="text-lg font-medium">
-                        Call us or send us an email, and our experts will walk you through the entire process, requirements, and packages for ghostwriting services for your book! Please contact us by phone or start a live chat. <span><a href="tel:+1 (855) 469-7509" className="hover:text-black font-bold">+1 (855) 469-7509</a>, or start a <a href="#" className="hover:text-black font-bold">live chat.</a></span>
-                    </p>
-                </div>
-            </section>
+
 
         </>
     )

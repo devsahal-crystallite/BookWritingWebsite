@@ -20,7 +20,7 @@ const Ghostwriting = () => {
       <main>
 
       <FEATURED
-          banneraffordable='article'
+          banneraffordable='PressRelease'
           title='Result-Driven Article-Writing Services That Boost Your Online Image'
           dec={` Drive more customers, convert the existing ones into loyal customers, and create compelling articles that speak to what matters most to your target audience.`}
           href1={<> <a href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">

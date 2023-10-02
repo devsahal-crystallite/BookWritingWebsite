@@ -393,3 +393,7 @@ section.headercontactform:before {
   background: url('/assets/images/newimg/banner-article-writing.jpg');
   background-repeat: no-repeat;
 }
+.PressRelease{
+  background: url('/assets/images/newimg/banner-press-release.jpg');
+  background-repeat: no-repeat;
+}
