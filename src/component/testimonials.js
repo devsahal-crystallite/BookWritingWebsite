@@ -39,10 +39,9 @@ const testimonials = () => {
               The appreciation from our clients is what keeps us going. Have a sneak peek of what our satisfied clients have to say about our work.
             </p>
           </div>
-          <Slider {...settings}>
-
-          <div className="testimon1">
-        <div className="item bg-[#05193c] p-5 text-center rounded-lg m-1">
+<Slider {...settings}>
+   <div className="testimon1">
+      <div className="item bg-[#05193c] p-5 text-center rounded-lg m-1">
           <FontAwesomeIcon icon={faQuoteLeft} />
           <h5>
             Thomson Lucas
@@ -52,7 +51,7 @@ const testimonials = () => {
             provided me with a complete solution and are looking after each and everything.
           </p>
 
-        </div>
+      </div>
       </div>
       <div className="testimon1">
         <div className="item bg-[#05193c] p-5 text-center rounded-lg m-1">
@@ -181,9 +180,8 @@ const testimonials = () => {
           </p>
 
         </div>
-      </div>
-
-          </Slider>
+    </div>
+</Slider>
 
         </div>
       </section>
