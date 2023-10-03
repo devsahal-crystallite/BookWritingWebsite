@@ -14,15 +14,15 @@ import TESTI from '../component/testimonials'
 
 
 
-const Ghostwriting = () => {
+const MagazineWriting = () => {
   return (
     <>
       <main>
 
       <FEATURED
-          banneraffordable='MagazineWriting'
-          title='Result-Driven Article-Writing Services That Boost Your Online Image'
-          dec={` Drive more customers, convert the existing ones into loyal customers, and create compelling articles that speak to what matters most to your target audience.`}
+          banneraffordable='MagazineWriting1'
+          title='Our Magazine Writers Bring it all Altogether'
+          dec={` Attracting the reader at the first step is a herculean task, but our expert writers flawlessly bring all the content together and attract the other person instantly.`}
           href1={<> <a href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
           </a> </>}
@@ -46,4 +46,4 @@ const Ghostwriting = () => {
   )
 }
 
-export default Ghostwriting;
+export default MagazineWriting;

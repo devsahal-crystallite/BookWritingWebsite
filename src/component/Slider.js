@@ -87,20 +87,20 @@ function Slider() {
 
                     </div>
 
-                    <div class="display-block mt-6 cursor-pointer">
-                                <a href="javascript:;" data-fancybox="" data-src="#popupform" class="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
+                    <div className="display-block mt-6 cursor-pointer">
+                                <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
                                     Get Started <FontAwesomeIcon icon={faCaretRight} />
                                 </a>
-                                <a href="javascript:;" class="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                                <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
                                     Live Chat
                                 </a>
                             </div>
                     <div>
                         <ul className='grid grid-cols-4 grid-rows-1 gap-2 pt-5'>
-                            <li><Image src='/assets/images/banner/trustpilot-reviews.png' width={150} height={150} /></li>
-                            <li><Image src='/assets/images/banner/google-customer-reviews.png' width={150} height={150} /></li>
-                            <li><Image src='/assets/images/banner/reviews-trust.png' width={150} height={150} /></li>
-                            <li><Image src='/assets/images/banner/writing.svg' width={100} height={100} /></li>
+                            <li><Image src='/assets/images/banner/trustpilot-reviews.png' width={150} height={150} alt="trustpilot-reviews" /></li>
+                            <li><Image src='/assets/images/banner/google-customer-reviews.png' width={150} height={150} alt="google-customer-reviews"/></li>
+                            <li><Image src='/assets/images/banner/reviews-trust.png' width={150} height={150} alt="reviews-trust"/></li>
+                            <li><Image src='/assets/images/banner/writing.svg' width={100} height={100} alt="writing"/></li>
                         </ul>
                     </div>
                 </div>

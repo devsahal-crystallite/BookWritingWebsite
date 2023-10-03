@@ -16,11 +16,11 @@ const cta2 = () => {
             Let’s Work Together!
           </h2>
 
-          <div class="display-block mt-6 cursor-pointer">
-            <a href="javascript:;" data-fancybox="" data-src="#popupform" class="bg-[#e1b433] border-white text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
+          <div className="display-block mt-6 cursor-pointer">
+            <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#e1b433] border-white text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
               Get Started <FontAwesomeIcon icon={faCaretRight} />
             </a>
-            <a href="javascript:;" class="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+            <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
               Live Chat
             </a>
           </div>

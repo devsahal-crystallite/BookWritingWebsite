@@ -76,20 +76,20 @@ const creativeGhostWriters = () => {
                         </div>
 
                     </div>
-                    <div class="display-block mt-6 cursor-pointer px-8">
-                        <a href="javascript:;" data-fancybox="" data-src="#popupform" class="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
+                    <div className="display-block mt-6 cursor-pointer px-8">
+                        <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
                             Get Started <FontAwesomeIcon icon={faCaretRight} />
                         </a>
-                        <a href="javascript:;" class="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                        <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
                             Live Chat
                         </a>
                     </div>
                 </div>
 
             </section>
-            <section class="compose bg-[#e1b433] py-[30px]">
-                <div class="container max-w-7xl mx-auto text-left">
-                    <p class="text-lg font-medium">
+            <section className="compose bg-[#e1b433] py-[30px]">
+                <div className="container max-w-7xl mx-auto text-left">
+                    <p className="text-lg font-medium">
                         Call us or send us an email, and our experts will walk you through the entire process, requirements, and packages for ghostwriting services for your book! Please contact us by phone or start a live chat. <span><a href="tel:+1 (855) 469-7509" className="hover:text-black font-bold">+1 (855) 469-7509</a>, or start a <a href="#" className="hover:text-black font-bold">live chat.</a></span>
                     </p>
                 </div>

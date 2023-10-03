@@ -6,9 +6,9 @@ import Link from 'next/link'
 const workMode = () => {
     return (
         <>
-            <section class="our-process bg-process-bg bg-cover bg-no-repeat w-full">
-                <div class="container max-w-7xl pt-24 pb-24 text-white">
-                    <div class="heading text-center lg:mb-20 justify-center">
+            <section className="our-process bg-process-bg bg-cover bg-no-repeat w-full">
+                <div className="container max-w-7xl pt-24 pb-24 text-white">
+                    <div className="heading text-center lg:mb-20 justify-center">
                         <h6>
                             Carrying Out
                         </h6>
@@ -38,9 +38,9 @@ const workMode = () => {
                         </li>
                     </ul>
                     <div className='grid grid-cols-4 grid-rows-1 gap-4'>
-                        <div class="col-md">
-                            <div class="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
-                                <div class="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
+                        <div className="col-md">
+                            <div className="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
+                                <div className="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
                                     <img src="/assets/images/newimg/process-1.png" alt="" />
                                 </div>
                                 <p className='lg:text-[17px] text-[#242424] font-semibold lg:leading-6 m-0 transition-[.5s all]'>
@@ -53,9 +53,9 @@ const workMode = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md">
-                            <div class="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
-                                <div class="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
+                        <div className="col-md">
+                            <div className="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
+                                <div className="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
                                     <img src="/assets/images/newimg/process-2.png" alt="professional article writing services" />
                                 </div>
                                 <p className='lg:text-[17px] text-[#242424] font-semibold lg:leading-6 m-0 transition-[.5s all]'>
@@ -67,9 +67,9 @@ const workMode = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md">
-                            <div class="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
-                                <div class="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
+                        <div className="col-md">
+                            <div className="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
+                                <div className="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
                                     <img src="/assets/images/newimg/process-3.png" alt="seo article writing service" />
                                 </div>
                                 <p className='lg:text-[17px] text-[#242424] font-semibold lg:leading-6 m-0 transition-[.5s all]'>
@@ -80,9 +80,9 @@ const workMode = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md">
-                            <div class="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
-                                <div class="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
+                        <div className="col-md">
+                            <div className="box bg-white text-center h-[100%] pt-5 pb-5 pr-7 pl-7 border-2 border-solid transition-[.5s] hover:bg-[#16295c] hover:border-white">
+                                <div className="lg:h-[100px] lg:w-[100px] bg-[#16295c] rounded-full text-center border-4 border-solid border-white m-auto transition-[.5 all] leading-[90px] img hover:bg-[#e5ce4e]">
                                     <img src="/assets/images/newimg/process-4.png" alt="" />
                                 </div>
                                 <p className='lg:text-[17px] text-[#242424] font-semibold lg:leading-6 m-0 transition-[.5s all]'>

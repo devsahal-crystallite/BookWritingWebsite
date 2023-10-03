@@ -27,11 +27,11 @@ const demandingSpecilaist = () => {
                             </h3>
                             <div className="flex w-[55%] space-x-10 py-10">
                                 <ul className='flex-auto inline-block text-white text-[18px] space-y-3 justify-center items-center'>
-                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt=""/>eBook Writing</li>
-                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt=""/>Proofreading Services</li>
-                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt=""/>Book Editing</li>
-                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt=""/>Book Formatting</li>
-                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt=""/>Video Trailer</li>
+                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt="eBook Writing"/>eBook Writing</li>
+                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt="Proofreading Services"/>Proofreading Services</li>
+                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt="Book Editing"/>Book Editing</li>
+                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt="Book Formatting"/>Book Formatting</li>
+                                    <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt="Video Trailer"/>Video Trailer</li>
                                 </ul>
                                 <ul  className='flex-auto inline-block text-white text-[18px] space-y-3 justify-center items-center '>
                                     <li className='flex space-x-3'><Image src="/assets/images/newimg/color-check.png" width={40} height={40} alt=""/>Audio Book</li>

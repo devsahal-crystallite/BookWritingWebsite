@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Image from 'next/image'
+import TOPHEADER from '../component/topHeader'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -25,26 +26,9 @@ const Header = () => {
   return (
     // Top header
     <>
-      <div className='w-full bg-[#2b2460]'>
-        <div className='container lg:max-w-7xl mx-auto flex text-white p-2 cursor-pointer space-x-4 items-center'>
-          <div className='flex flex-row space-x-2 basis-8/12 items-center text-[12px]'>
-            <h3 className='text-[14px]'>Follow Us:</h3>
+      
 
-            <FontAwesomeIcon icon={faFacebookF} className='rounded-[50%] border-2 p-1'/>          
-            <FontAwesomeIcon icon={faTwitter} className='rounded-[50%] border-2 p-1'/>          
-            <FontAwesomeIcon icon={faInstagram} className='rounded-[50%] border-2 p-1'/> 
-            <FontAwesomeIcon icon={faLinkedinIn}  className='rounded-[50%] border-2 p-1'/>         
-          </div>
-          <div className='flex space-x-2'>
-            <FontAwesomeIcon icon={faEnvelope} beat style={{color: "#ffffff"}} />            
-            <p className='text-[12px]'>support@barnettghostwriting.com</p>
-          </div>
-          <div className='flex space-x-2 text-center'>
-            <FontAwesomeIcon icon={faPhone} fade style={{color: "#ffffff"}} />
-            <p className='text-[12px]'>+1 (855) 469-7509</p>
-          </div>
-        </div>
-      </div>
+      <TOPHEADER/>
       <div className='w-full'>
       <header className="bg-white shadow-md">
     <div className="container mx-auto py-4 max-w-7xl">

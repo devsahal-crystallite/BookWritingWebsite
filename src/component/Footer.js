@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <>
       <div className='w-full bg-footer-bg bg-cover bg-no-repeat text-white h-auto border-solid bg-[#f0f0f0] pt-10 m-0 '>
-        <div class="container max-w-7xl justify-center mx-auto text-[13px]">
-          <div class="grid grid-cols-4 grid-rows-1">
-            <div class="col-md-3">
-              <a href="#" class="logo">
+        <div className="container max-w-7xl justify-center mx-auto text-[13px]">
+          <div className="grid grid-cols-4 grid-rows-1">
+            <div className="col-md-3">
+              <a href="#" className="logo">
                 <img src="/assets/images/newimg/logo-gr.png" alt="" />
               </a>
               <p>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <h4 className='text-[#5ccd80] text-[18px] font-medium'>
                 GhostWriting
               </h4>
@@ -56,7 +56,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <h4 className='text-[#5ccd80] text-[18px] font-medium'>
                 Services
               </h4>
@@ -90,7 +90,7 @@ const Footer = () => {
 
               </ul>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <h4 className='text-[#5ccd80] text-[18px] font-medium'>
                 Marketing
               </h4>

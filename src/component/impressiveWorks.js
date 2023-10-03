@@ -9,7 +9,7 @@ const impressiveWorks = () => {
       <div>
         <section className='container mx-auto'>
           <div className='lg:pt-20 lg:pb-20 bg-[#f2f2f2]'>
-            <div class="heading text-center">
+            <div className="heading text-center">
               <h6>
                 Our Impressive Work
               </h6>

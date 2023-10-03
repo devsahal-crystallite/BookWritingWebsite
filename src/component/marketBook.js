@@ -12,8 +12,8 @@ const marketBook = () => {
             <section className="bg-process-bg22 bg-contain bg-no-repeat relative pt-10 pb-10 text-[#05193c]">
                 <div className="container mx-auto justify-center items-center pt-10 pb-14">
                     <div className='max-w-7xl mx-auto grid grid-cols-2 grid-rows-1 justify-center items-center'>
-                        <div class="col-md-6 pl-5">
-                            <div class="heading">
+                        <div className="col-md-6 pl-5">
+                            <div className="heading">
                                 <h6>
                                     Market Your Book
                                 </h6>
@@ -55,11 +55,11 @@ const marketBook = () => {
 
                                     <img src="/assets/images/newimg/black-check.png" alt="" />Barnes &amp; Noble Nook Edition</li>
                             </ul>
-                            <div class="display-block mt-6 cursor-pointer">
-                                <a href="javascript:;" data-fancybox="" data-src="#popupform" class="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
+                            <div className="display-block mt-6 cursor-pointer">
+                                <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
                                     Get Started <FontAwesomeIcon icon={faCaretRight} />
                                 </a>
-                                <a href="javascript:;" class="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                                <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
                                     Live Chat
                                 </a>
                             </div>
