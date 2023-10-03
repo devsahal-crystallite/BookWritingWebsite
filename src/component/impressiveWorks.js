@@ -25,7 +25,7 @@ const impressiveWorks = () => {
                 We make it possible for you to make your book the next big read for the readers. Bring us your rough drafts, and let our team work magnificently on their execution.
               </p>
             </div>
-           <LpSlider/>
+           {/* <LpSlider/> */}
           </div>
         </section>
       </div>
