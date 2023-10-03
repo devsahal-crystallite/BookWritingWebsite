@@ -15,6 +15,8 @@ const AccordionLayout = () => {
     };
 
     const accordionData = [
+
+        
         {
             title: 'What is the average cost of a ghostwriter?',
             content: 'Costs for ghostwriters vary quite a bit depending on the scope of the project and the length of the book as well.',

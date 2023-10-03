@@ -23,10 +23,10 @@ const topHeader = () => {
           <div className='flex flex-row space-x-2 basis-8/12 items-center text-[12px]'>
             <h3 className='lg:text-[14px]'>Follow Us:</h3>
 
-            <FontAwesomeIcon icon={faFacebookF} className='rounded-[50%] border-2 p-1'/>          
-            <FontAwesomeIcon icon={faTwitter} className='rounded-[50%] border-2 p-1'/>          
-            <FontAwesomeIcon icon={faInstagram} className='rounded-[50%] border-2 p-1'/> 
-            <FontAwesomeIcon icon={faLinkedinIn}  className='rounded-[50%] border-2 p-1'/>         
+            <FontAwesomeIcon icon={faFacebookF} className='rounded-[50%] border-2 p-1 h-3 w-3'/>          
+            <FontAwesomeIcon icon={faTwitter} className='rounded-[50%] border-2 p-1 h-3 w-3'/>          
+            <FontAwesomeIcon icon={faInstagram} className='rounded-[50%] border-2 p-1 h-3 w-3'/> 
+            <FontAwesomeIcon icon={faLinkedinIn}  className='rounded-[50%] border-2 p-1 h-3 w-3'/>         
           </div>
           <div className='flex space-x-2'>
             <FontAwesomeIcon icon={faEnvelope} beat style={{color: "#ffffff"}} />            
