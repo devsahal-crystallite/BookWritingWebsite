@@ -7,7 +7,7 @@ const writingservices = () => {
         <>
 
             <div className="lg:container-xl bg-second-section-2 bg-cover bg-no-repeat mx-auto  gap-2 p-8 ">
-                <div className='lg:max-w-7xl mx-auto grid grid-cols-5 grid-rows-1 items-center'>
+                <div className='lg:max-w-7xl mx-auto grid grid-cols-5 grid-rows-1 items-center justify-center space-x-2'>
                     <div><h4 className='text-[24px] font-[800]'>Exceptional Book
                         Writing Services!</h4></div>
 
