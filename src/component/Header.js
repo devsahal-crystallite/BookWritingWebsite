@@ -48,8 +48,8 @@ const Header = () => {
       <div className='w-full'>
       <header className="bg-white shadow-md">
     <div className="container mx-auto py-4 max-w-7xl">
-        <div className="flex items-center justify-between">
-            <div className="flex-shrink-0">
+        <div className="lg:flex items-center justify-between md:grid md:grid-cols-1 md:grid-rows-1 sm:grid sm:grid-cols-1 sm:grid-rows-1">
+            <div className="lg:flex-shrink-0">
                 <a href="" className="text-xl font-bold text-indigo-500">
                     <img src="/assets/images/barnett-logo.webp" alt="Barnett ghostwriting logo" />
                 </a>
@@ -60,15 +60,17 @@ const Header = () => {
                     <li><a href="/about-us" className="text-gray-600 hover:text-indigo-500">About</a></li>
                     <li className="group relative">
                         <a href="javascript:;" className="text-gray-600 hover:text-indigo-500">Writing Services  </a><FontAwesomeIcon icon={faCaretDown} />
-                        <ul className="absolute hidden space-y-2 justify-between items-center mx-auto text-center justify-center lg:w-60 bg-[#2b2460] text-white z-10 border border-gray-200 group-hover:block hover:text-white">
-                            <li className=''><a href="/affordable-ghostwriting-services/"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> Ghostwriting</a></li>
-                            <li className=''><a href="/seo-content-writing-services/"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> SEO Writing</a></li>
-                            <li className=''><a href="/article-writing-services/"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> Article Writing</a></li>
-                            <li className=''><a href="/web-copywriting-services/"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> Web Copy Writing</a></li>
-                            <li className=''><a href="/press-release-writing-services/"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> Press Release</a></li>
-                            <li className=''><a href="/script-writing-services"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> Script Writing</a></li>
-                            <li className=''><a href="/magazine-writing/"><Image src="/assets/images/newimg/magazine-writing.png" width={50} height={50}/> Magazine Writing</a></li>
+                        <ul className="absolute space-y-4 hidden flex-row items-center mx-auto py-3 px-10 text-center justify-center lg:w-auto bg-[#2b2460] text-white z-10 border border-gray-200 group-hover:block hover:text-white">
+                            <li className=''><a href="/affordable-ghostwriting-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Ghostwriting</a></li>
+                            <li className=''><a href="/seo-content-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> SEO Writing</a></li>
+                            <li className=''><a href="/article-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Article Writing</a></li>
+                            <li className=''><a href="/web-copywriting-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Web Copy Writing</a></li>
+                            <li className=''><a href="/press-release-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Press Release</a></li>
+                            <li className=''><a href="/script-writing-services"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Script Writing</a></li>
+                            <li className=''><a href="/magazine-writing/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Magazine Writing</a></li>
                         </ul>
+
+
                     </li>
                     <li><a href="/genre/" className="text-gray-600 hover:text-indigo-500">Genre</a></li>
                     <li><a href="/ebook-marketing-services/" className="text-gray-600 hover:text-indigo-500">Marketing</a></li>

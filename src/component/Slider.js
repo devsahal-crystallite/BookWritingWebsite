@@ -67,7 +67,7 @@ function Slider() {
 
         <>
 
-            <div className="grid grid-cols-2 grid-rows-1 gap-2 lg:p-24">
+            <div className=" lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-2 lg:p-24">
                 <div>
                     <div>
                         <h2 className='lg:text-[42px] font-bold'>Where Beautiful</h2>
