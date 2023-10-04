@@ -17,12 +17,12 @@ const cta2 = () => {
           </h2>
 
           <div className="display-block mt-6 cursor-pointer">
-            <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#e1b433] border-white text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
+            <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#e1b433] border-white text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
               Get Started <FontAwesomeIcon icon={faCaretRight} />
-            </a>
-            <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+            </Link>
+            <Link href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
               Live Chat
-            </a>
+            </Link>
           </div>
         </div>
       </div>

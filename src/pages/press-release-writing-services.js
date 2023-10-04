@@ -23,13 +23,13 @@ const Ghostwriting = () => {
           banneraffordable='PressRelease'
           title='Result-Driven Article-Writing Services That Boost Your Online Image'
           dec={` Drive more customers, convert the existing ones into loyal customers, and create compelling articles that speak to what matters most to your target audience.`}
-          href1={<> <a href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
+          href1={<> <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
-          </a> </>}
+          </Link> </>}
           href2={<>
-            <a href="javascript:;" className="chat btn btn-white-border ml-4">
+            <Link href="javascript:;" className="chat btn btn-white-border ml-4">
               Live Chat
-            </a>
+            </Link>
           </>}
         />
         <LHPress/>

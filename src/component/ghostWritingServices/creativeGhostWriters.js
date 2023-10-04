@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, } from "@fortawesome/free-solid-svg-icons";
 
@@ -77,12 +78,12 @@ const creativeGhostWriters = () => {
 
                     </div>
                     <div className="display-block mt-6 cursor-pointer px-8">
-                        <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
+                        <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
                             Get Started <FontAwesomeIcon icon={faCaretRight} />
-                        </a>
-                        <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                        </Link>
+                        <Link href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
                             Live Chat
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -90,7 +91,7 @@ const creativeGhostWriters = () => {
             <section className="compose bg-[#e1b433] py-[30px]">
                 <div className="container max-w-7xl mx-auto text-left">
                     <p className="text-lg font-medium">
-                        Call us or send us an email, and our experts will walk you through the entire process, requirements, and packages for ghostwriting services for your book! Please contact us by phone or start a live chat. <span><a href="tel:+1 (855) 469-7509" className="hover:text-black font-bold">+1 (855) 469-7509</a>, or start a <a href="#" className="hover:text-black font-bold">live chat.</a></span>
+                        Call us or send us an email, and our experts will walk you through the entire process, requirements, and packages for ghostwriting services for your book! Please contact us by phone or start a live chat. <span><Link href="tel:+1 (855) 469-7509" className="hover:text-black font-bold">+1 (855) 469-7509</Link>, or start a <Link href="#" className="hover:text-black font-bold">live chat.</Link></span>
                     </p>
                 </div>
             </section>

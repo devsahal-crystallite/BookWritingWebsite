@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -16,21 +17,21 @@ const Footer = () => {
         <div className="container max-w-7xl justify-center mx-auto text-[13px]">
           <div className="grid grid-cols-4 grid-rows-1">
             <div className="col-md-3">
-              <a href="#" className="logo">
+              <Link href="#" className="logo">
                 <img src="/assets/images/newimg/logo-gr.png" alt="" />
-              </a>
+              </Link>
               <p>
                 498 Brush St Detroit, MI 48226, USA
               </p>
               <ul className='py-2 space-y-2'>
                 <li>
-                  <a href="tel:+1 (855) 469-7509 ">+1 (855) 469-7509 </a>
+                  <Link href="tel:+1 (855) 469-7509 ">+1 (855) 469-7509 </Link>
                 </li>
                 <li>
-                  <a href="tel:+1 (734) 409-7256">+1 (734) 409-7256</a>
+                  <Link href="tel:+1 (734) 409-7256">+1 (734) 409-7256</Link>
                 </li>
                 <li>
-                  <a href="mailto:support@barnettghostwriting.com">support@barnettghostwriting.com</a>
+                  <Link href="mailto:support@barnettghostwriting.com">support@barnettghostwriting.com</Link>
                 </li>
               </ul>
             </div>
@@ -41,18 +42,18 @@ const Footer = () => {
               <ul className='py-2 space-y-2'>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/">Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/about-us">About</a>
+                  <Link href="/about-us">About</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="//blog">Blog</a></li>
+                  <Link href="//blog">Blog</Link></li>
                   <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/contact-us">Contact</a>
+                  <Link href="/contact-us">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -63,30 +64,30 @@ const Footer = () => {
               <ul className='py-2 space-y-2'>
               <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/affordable-ghostwriting-services">Ghostwriting</a>
+                  <Link href="/affordable-ghostwriting-services">Ghostwriting</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/genre">Genre</a>
+                  <Link href="/genre">Genre</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/marketing-services">Marketing</a>
+                  <Link href="/marketing-services">Marketing</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/book-publishing-services">Publication</a>
+                  <Link href="/book-publishing-services">Publication</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/hardcover-book-printing-services/">Printing</a>
+                  <Link href="/hardcover-book-printing-services/">Printing</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/book-cover-design-services">Cover Design</a></li>
+                  <Link href="/book-cover-design-services">Cover Design</Link></li>
                   <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/professional-book-editing-services">Editing</a></li>
+                  <Link href="/professional-book-editing-services">Editing</Link></li>
 
               </ul>
             </div>
@@ -97,31 +98,31 @@ const Footer = () => {
               <ul className='py-2 space-y-2'>
               <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/marketing-services">Video Trailer</a>
+                  <Link href="/marketing-services">Video Trailer</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/marketing-services">Audio Book</a>
+                  <Link href="/marketing-services">Audio Book</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/author">Author Website</a>
+                  <Link href="/author">Author Website</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/book-publishing-services">Book Publishing</a>
+                  <Link href="/book-publishing-services">Book Publishing</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/">Social Media Marketing</a>
+                  <Link href="/">Social Media Marketing</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/">Book Translation</a>
+                  <Link href="/">Book Translation</Link>
                 </li>
                 <li className='flex space-x-1 items-center'>
                   <FontAwesomeIcon icon={faCaretRight} />
-                  <a href="/marketing-services">Marketing Consultation</a>
+                  <Link href="/marketing-services">Marketing Consultation</Link>
                 </li>
               </ul>
             </div>
@@ -143,9 +144,9 @@ const Footer = () => {
             </div>
             <div>
               <ul className='flex space-x-5'>
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="/privacy-policy">Privacy Policy</a></li>
-                <li><a href="/terms-and-condition">Terms &amp; Conditions</a></li>
+                <li><Link href="#">Sitemap</Link></li>
+                <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                <li><Link href="/terms-and-condition">Terms &amp; Conditions</Link></li>
               </ul>
             </div>
           </div>

@@ -23,13 +23,13 @@ const Ghostwriting = () => {
           banneraffordable='ScriptWriting'
           title='Professional High-Quality Script by Expert Writers'
           dec={`Streamline your content needs with our high-quality script writing service, which educates your audience about your brand and also helps you elevate.`}
-          href1={<> <a href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
+          href1={<> <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
-          </a> </>}
+          </Link> </>}
           href2={<>
-            <a href="javascript:;" className="chat btn btn-white-border ml-4">
+            <Link href="javascript:;" className="chat btn btn-white-border ml-4">
               Live Chat
-            </a>
+            </Link>
           </>}
         />
         <LHScript/>

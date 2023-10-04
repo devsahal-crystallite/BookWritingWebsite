@@ -56,12 +56,12 @@ const marketBook = () => {
                                     <img src="/assets/images/newimg/black-check.png" alt="" />Barnes &amp; Noble Nook Edition</li>
                             </ul>
                             <div className="display-block mt-6 cursor-pointer">
-                                <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
+                                <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
                                     Get Started <FontAwesomeIcon icon={faCaretRight} />
-                                </a>
-                                <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                                </Link>
+                                <Link href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
                                     Live Chat
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="z-10">

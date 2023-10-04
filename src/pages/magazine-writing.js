@@ -23,13 +23,13 @@ const MagazineWriting = () => {
           banneraffordable='MagazineWriting1'
           title='Our Magazine Writers Bring it all Altogether'
           dec={` Attracting the reader at the first step is a herculean task, but our expert writers flawlessly bring all the content together and attract the other person instantly.`}
-          href1={<> <a href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
+          href1={<> <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="btn btn-green">
             Get Started <i className="fas fa-caret-right ml-1"></i>
-          </a> </>}
+          </Link> </>}
           href2={<>
-            <a href="javascript:;" className="chat btn btn-white-border ml-4">
+            <Link href="javascript:;" className="chat btn btn-white-border ml-4">
               Live Chat
-            </a>
+            </Link>
           </>}
         />
         <LHMagazine/>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, } from "@fortawesome/free-solid-svg-icons";
 
@@ -29,12 +30,12 @@ const ghostWriting = () => {
           <li><img src="/assets/images/newimg/color-check.png" alt="Checkmark" className="inline-block mr-2" />Developmental Editing</li>
         </ul>
         <div className="display-block mt-6 cursor-pointer text-center">
-            <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-white text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
+            <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-white text-[#07163f] hover:bg-transparent hover:border-[#62e389] rounded-lg hover:text-white mr-3 btn btn-green">
               Get Started <FontAwesomeIcon icon={faCaretRight} />
-            </a>
-            <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+            </Link>
+            <Link href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
               Live Chat
-            </a>
+            </Link>
           </div>
       </div>
     </section>

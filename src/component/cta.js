@@ -16,12 +16,12 @@ const ctaa = () => {
             If you need to contact us at any time of the day, don’t hesitate to contact our representatives.
         </p>
         <div className="display-block mt-6 cursor-pointer">
-                                <a href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
+                                <Link href="javascript:;" data-fancybox="" data-src="#popupform" className="bg-[#62e389] border-[#62e389] text-[#07163f] hover:bg-[#62e389] hover:border-[#62e389] rounded hover:text-white mr-3 btn btn-green">
                                     Get Started <FontAwesomeIcon icon={faCaretRight} />
-                                </a>
-                                <a href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
+                                </Link>
+                                <Link href="javascript:;" className="btn btn-black-border hover:bg-[#0a0c37] hover:text-white rounded-lg">
                                     Live Chat
-                                </a>
+                                </Link>
                             </div>
         </div>
       </div>

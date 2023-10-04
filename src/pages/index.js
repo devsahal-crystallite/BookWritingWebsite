@@ -14,7 +14,7 @@ import WMODE from '../component/workMode'
 import MBOOK from '../component/marketBook'
 import CTA2 from '../component/cta2';
 import TESTI from '../component/testimonials'
-import AQS from '../component/AccordionLayout';
+import QS from '../component/AccordionLayout';
 
 
 
@@ -39,7 +39,7 @@ export default function Home() {
         <WMODE/>
         <MBOOK/>
         <CTA2/>
-        <AQS/>
+        <QS/>
         <TESTI/>
         
         

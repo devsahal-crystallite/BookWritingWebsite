@@ -15,6 +15,9 @@ import {
   faCaretDown
 } from "@fortawesome/free-solid-svg-icons";
 
+
+
+
 const Header = () => {
   const [showSubMenu, setShowSubMenu] = useState(false);
 
@@ -34,43 +37,43 @@ const Header = () => {
     <div className="container mx-auto py-4 max-w-7xl">
         <div className="lg:flex items-center justify-between md:grid md:grid-cols-1 md:grid-rows-1 sm:grid sm:grid-cols-1 sm:grid-rows-1">
             <div className="lg:flex-shrink-0">
-                <a href="" className="text-xl font-bold text-indigo-500">
+                <Link href="" className="text-xl font-bold text-indigo-500">
                     <img src="/assets/images/barnett-logo.webp" alt="Barnett ghostwriting logo" />
-                </a>
+                </Link>
             </div>
-            <nav className="hidden md:flex space-x-4 text-[14px] text-[#030919] font-bold">
-                <ul className="flex space-x-6">
-                    <li><a href="/" className="text-gray-600 hover:text-indigo-500">Home</a></li>
-                    <li><a href="/about-us" className="text-gray-600 hover:text-indigo-500">About</a></li>
+            <nav className="hidden md:flex space-x-4 text-[14px] text-[#000] font-semibold">
+                <ul className="flex space-x-6 text-[#000]">
+                    <li><Link href="/" className=" hover:text-indigo-500">Home</Link></li>
+                    <li><Link href="/about-us" className="hover:text-indigo-500">About</Link></li>
                     <li className="group relative">
-                        <a href="javascript:;" className="text-gray-600 hover:text-indigo-500">Writing Services  </a><FontAwesomeIcon icon={faCaretDown} />
-                        <ul className="absolute space-y-4 hidden flex-row items-center mx-auto py-3 px-10 text-center justify-center lg:w-auto bg-[#2b2460] text-white z-10 border border-gray-200 group-hover:block hover:text-white">
-                            <li className=''><a href="/affordable-ghostwriting-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Ghostwriting</a></li>
-                            <li className=''><a href="/seo-content-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> SEO Writing</a></li>
-                            <li className=''><a href="/article-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Article Writing</a></li>
-                            <li className=''><a href="/web-copywriting-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Web Copy Writing</a></li>
-                            <li className=''><a href="/press-release-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Press Release</a></li>
-                            <li className=''><a href="/script-writing-services"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Script Writing</a></li>
-                            <li className=''><a href="/magazine-writing/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Magazine Writing</a></li>
+                        <Link href="javascript:;" className=" hover:text-indigo-500">Writing Services  </Link><FontAwesomeIcon icon={faCaretDown} />
+                        <ul className="absolute space-y-4 lg:hidden items-center mx-auto py-3 px-10 text-center justify-center lg:w-auto bg-[#2b2460] text-white z-10 border border-gray-200 group-hover:block hover:text-white">
+                            <li className=''><Link href="/affordable-ghostwriting-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Ghostwriting</Link></li>
+                            <li className=''><Link href="/seo-content-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> SEO Writing</Link></li>
+                            <li className=''><Link href="/article-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Article Writing</Link></li>
+                            <li className=''><Link href="/web-copywriting-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Web Copy Writing</Link></li>
+                            <li className=''><Link href="/press-release-writing-services/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Press Release</Link></li>
+                            <li className=''><Link href="/script-writing-services"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Script Writing</Link></li>
+                            <li className=''><Link href="/magazine-writing/"><img className='w-[50%] mx-auto' src="/assets/images/newimg/magazine-writing.png" /> Magazine Writing</Link></li>
                         </ul>
 
 
                     </li>
-                    <li><a href="/genre/" className="text-gray-600 hover:text-indigo-500">Genre</a></li>
-                    <li><a href="/ebook-marketing-services/" className="text-gray-600 hover:text-indigo-500">Marketing</a></li>
-                    <li><a href="/book-publishing-services/" className="text-gray-600 hover:text-indigo-500">Publication</a></li>
-                    <li><a href="/hardcover-book-printing-services/" className="text-gray-600 hover:text-indigo-500">Printing</a></li>
-                    <li><a href="/book-cover-design-services/" className="text-gray-600 hover:text-indigo-500">Cover Design</a></li>
-                    <li><a href="/professional-book-editing-services/" className="text-gray-600 hover:text-indigo-500">Editing</a></li>
-                    <li><a href="/blog/" className="text-gray-600 hover:text-indigo-500">Blog</a></li>
-                    <li><a href="/contact-us/" className="text-gray-600 hover:text-indigo-500">Contact Us</a></li>
+                    <li><Link href="/genre/" className="hover:text-indigo-500">Genre</Link></li>
+                    <li><Link href="/ebook-marketing-services/" className="hover:text-indigo-500">Marketing</Link></li>
+                    <li><Link href="/book-publishing-services/" className="hover:text-indigo-500">Publication</Link></li>
+                    <li><Link href="/hardcover-book-printing-services/" className="hover:text-indigo-500">Printing</Link></li>
+                    <li><Link href="/book-cover-design-services/" className="hover:text-indigo-500">Cover Design</Link></li>
+                    <li><Link href="/professional-book-editing-services/" className="hover:text-indigo-500">Editing</Link></li>
+                    <li><Link href="/blog/" className="hover:text-indigo-500">Blog</Link></li>
+                    <li><Link href="/contact-us/" className="hover:text-indigo-500">Contact Us</Link></li>
                 </ul>
             </nav>
-            <a href="javascript:;" className="md:hidden">
+            <Link href="javascript:;" className="md:hidden">
                 <span className="block w-6 h-0.5 bg-gray-600"></span>
                 <span className="block w-6 h-0.5 mt-1 bg-gray-600"></span>
                 <span className="block w-6 h-0.5 mt-1 bg-gray-600"></span>
-            </a>
+            </Link>
         </div>
     </div>
 </header>
