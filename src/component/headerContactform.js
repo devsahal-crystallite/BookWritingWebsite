@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const HeaderContactForm = () => {
   return (
     <section className="headercontactform bg-cover bg-no-repeat relative py-16 bg-gray-100" style={{ backgroundImage: "url('/assets/images/newimg/contactformbg.png')" }}>

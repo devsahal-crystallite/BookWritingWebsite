@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 import FEATURED from '../component/ghostWritingServices/featuredSec'
 import LHPress from '../component/PressReleaseWritingServices/LetUsPress'
 import GhostWriting from '../component/ghostWritingServices/ghostWriting'

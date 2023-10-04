@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import LpSlider from '../component/Lpslider'
-
+import Link from 'next/link';
 
 
 
