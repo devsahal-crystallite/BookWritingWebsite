@@ -17,7 +17,7 @@ const LpSlider = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 5,
         autoplay: true,
         slidesToScroll: 1,
         responsive: [
@@ -28,7 +28,7 @@ const LpSlider = () => {
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                 }
@@ -40,8 +40,8 @@ const LpSlider = () => {
     return (
         <>
 
-            <div className='container lg:max-w-7xl justify-center mt-10 testimonial'>
-                <div className='justify-center lg:w-[1000px] mx-auto grid grid-rows-1 grid-cols-1 space-x-2 items-center '>
+            <div className='container max-w-7xl justify-center mt-10 testimonial'>
+                <div className='justify-center w-[85%] mx-auto grid grid-rows-1 grid-cols-1 space-x-2 items-center '>
                     <Slider {...settings}>
 
                         <div className=''>

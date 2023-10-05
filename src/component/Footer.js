@@ -15,8 +15,8 @@ const Footer = () => {
     <>
       <div className='w-full bg-footer-bg bg-cover bg-no-repeat text-white h-auto border-solid bg-[#f0f0f0] pt-10 m-0 '>
         <div className="container max-w-7xl justify-center mx-auto text-[13px]">
-          <div className="grid grid-cols-4 grid-rows-1">
-            <div className="col-md-3">
+          <div className="grid grid-cols-4 grid-rows-1 md:grid-cols-2 md:px-10 xs:grid-cols-2 xs:p-3 xs:space-x-3">
+            <div className=" xs:pl-3">
               <Link href="#" className="logo">
                 <img src="/assets/images/newimg/logo-gr.png" alt="" />
               </Link>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3">
+            <div className="">
               <h4 className='text-[#5ccd80] text-[18px] font-medium'>
                 GhostWriting
               </h4>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3">
+            <div className="">
               <h4 className='text-[#5ccd80] text-[18px] font-medium'>
                 Services
               </h4>
@@ -91,7 +91,7 @@ const Footer = () => {
 
               </ul>
             </div>
-            <div className="col-md-3">
+            <div className="">
               <h4 className='text-[#5ccd80] text-[18px] font-medium'>
                 Marketing
               </h4>
@@ -128,14 +128,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='container w-full bg-[#63e28b] text-black mt-10  '>
-          <div className='max-w-7xl mx-auto grid grid-cols-3 grid-rows-1 p-1'>
+        <div className=' w-full bg-[#63e28b] text-black mt-10  '>
+          <div className='container max-w-7xl mx-auto grid grid-cols-3 grid-rows-1 p-1 xs:grid-cols-1 xs:px-10 xs:items-center'>
             <div>
               <p>
                 © 2023 Barnett Ghostwriting - All Rights Reserved
               </p>
             </div>
-            <div className='flex space-x-2 items-center text-[12px] justify-center text-center'>
+            <div className='flex space-x-5 items-center text-[12px] justify-center text-center'>
 
               <FontAwesomeIcon icon={faFacebookF} className='rounded-[50%] border-2 p-1' />
               <FontAwesomeIcon icon={faTwitter} className='rounded-[50%] border-2 p-1' />

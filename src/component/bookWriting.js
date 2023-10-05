@@ -5,9 +5,14 @@ import Link from 'next/link'
 const bookWriting = () => {
     return (
         <>
-            <section className="bookwriting relative pt-20 pb-20 text-[#05193c]">
-                <div className="container mx-auto justify-center items-center">
-                    <div className='max-w-7xl mx-auto grid grid-cols-2 grid-rows-1 items-center justify-center right-80'>
+            <section className="relative pt-20 pb-20 text-[#05193c]">
+            <div
+                            className="absolute top-0 right-0 w-[910px] h-[705px] bg-no-repeat"
+                            style={{ backgroundImage: "url('/assets/images/newimg/pattern-2.png')" }}
+                        ></div>
+                <div className="container mx-auto justify-center items-center relative z-10 py-20 xs:py-5">
+                
+                    <div className='max-w-7xl mx-auto grid grid-cols-2 grid-rows-1 items-center justify-center right-80 xs:grid-cols-1'>
                         <div>
                         <div className="heading">
                             <h6>
@@ -41,7 +46,7 @@ const bookWriting = () => {
                         </ul>
                     </div>
                     <div className="z-10">
-                        <img src="/assets/images/newimg/pursuit-img.webp" className="float-left max-w-[unset] absolute top-10 right-0" alt="ghostwriting agency" />
+                        <img src="/assets/images/newimg/pursuit-img.webp" className="float-left max-w-[unset] absolute top-10 right-0 xs:relative" alt="ghostwriting agency" />
                     </div>
                     </div>
                     

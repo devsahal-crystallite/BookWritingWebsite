@@ -62,7 +62,7 @@ const AccordionLayout = () => {
                         <p className='lg:max-w-[70%] mx-auto my-5 text-[#05193c] font-normal text-[17px]'>
                             Reach Out to us for any Asistance
                         </p>
-                        <div className="space-y-3 grid grid-cols-2 grid-rows-1 space-x-3">
+                        <div className="space-y-3 grid grid-cols-2 grid-rows-1 space-x-1 xs:grid-cols-1 md:grid-cols-1">
                             {accordionData.map((item, index) => (
                                 <div
                                     key={index}

@@ -22,21 +22,36 @@ const testimonials = () => {
     speed: 500,
     slidesToShow: 3,
     autoplay:true,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+          breakpoint: 991,
+          settings: {
+              slidesToShow: 3,
+          }
+      },
+      {
+          breakpoint: 767,
+          settings: {
+              slidesToShow: 1,
+          }
+      },
+  ]
   };
+
   return (
     <>
 
       <section className="testimonial bookwriting relative ">
-        <div className="container max-w-7xl lg:py-[100px]  z-10 relative ">
+        <div className="container max-w-7xl py-20  z-10 relative ">
           <div className="heading text-center">
             <h6>
               Hear The Words Of
             </h6>
-            <h2 className='lg:text-4xl font-bold mb-5'>
+            <h2 className='text-4xl font-bold mb-5'>
               Appreciation from Our Clients
             </h2>
-            <p className='lg:text-lg mb-5 w-[70%] mx-auto'>
+            <p className='text-lg mb-5 w-[70%] mx-auto'>
               The appreciation from our clients is what keeps us going. Have a sneak peek of what our satisfied clients have to say about our work.
             </p>
           </div>

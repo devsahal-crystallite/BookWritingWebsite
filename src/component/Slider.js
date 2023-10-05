@@ -67,11 +67,11 @@ function Slider() {
 
         <>
 
-            <div className=" lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-2 lg:p-24">
+            <div className="max-w-7xl text-black mx-auto grid grid-cols-2 grid-rows-1 gap-2 py-24 mg:grid-cols-1 md:grid-rows-1 md:gap-2 md:py-16 md:px-10 sm:grid sm:grid-cols-1 sm:grid-rows-1 sm:gap-2 sm:py-10 sm:px-10 xs:grid xs:grid-cols-1 xs:grid-rows-1 xs:gap-2 xs:py-10 xs:px-10">
                 <div>
                     <div>
-                        <h2 className='lg:text-[42px] font-bold'>Where Beautiful</h2>
-                        <h1 className='lg:text-[42px] font-bold'><b>
+                        <h2 className='text-[42px] font-extrabold md:text-[42px]  xs:text-[34px]'>Where Beautiful</h2>
+                        <h1 className='text-[42px] xs:text-[34px] font-bold'><b>
                             <span id="typed-strings" className="bg-black p-2 text-green-600 uppercase">
                                 <span>CHILDREN</span>
                                 <span>business</span>
@@ -96,7 +96,7 @@ function Slider() {
                                 </Link>
                             </div>
                     <div>
-                        <ul className='grid grid-cols-4 grid-rows-1 gap-2 pt-5'>
+                        <ul className='grid grid-cols-4 grid-rows-1 gap-2 pt-5 items-center'>
                             <li><Image src='/assets/images/banner/trustpilot-reviews.png' width={150} height={150} alt="trustpilot-reviews" /></li>
                             <li><Image src='/assets/images/banner/google-customer-reviews.png' width={150} height={150} alt="google-customer-reviews"/></li>
                             <li><Image src='/assets/images/banner/reviews-trust.png' width={150} height={150} alt="reviews-trust"/></li>
@@ -105,7 +105,7 @@ function Slider() {
                     </div>
                 </div>
                 <div >
-                    <div className="svg-container">
+                    <div className="svg-container sm:hidden xs:hidden">
                         <img className="img-full image-one image-children" id="svg-children" src="/assets/images/banner/slider-1.png" />
                         <img className="img-full image-two image-business" id="svg-business" src="/assets/images/banner/slider-2.png" />
                         <img className="img-full image-three image-self" id="svg-self" src="/assets/images/banner/slider-3.png" />
@@ -119,15 +119,7 @@ function Slider() {
 
 
 
-            {/* <div id="typed-strings">
-                <span>CHILDREN</span>
-                <span>business</span>
-                <span>Self Help</span>
-                <span>Romance</span>
-                <span>MYSTERY</span>
-                <span>Adventure</span>
-            </div>
-            <h2 id="typed"></h2> */}
+           
         </>
 
     );

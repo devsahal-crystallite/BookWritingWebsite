@@ -9,8 +9,8 @@ const cta2 = () => {
   return (
     <>
       <div className='w-full bg-bg-cta2 bg-cover bg-no-repeat our-amazing'>
-        <div className='container max-w-7xl text-left items-center pt-20 pb-20 text-white '>
-          <h2 className='text-white uppercase lg:text-[34px] font-extrabold relative pl-7 leading-10'>
+        <div className='container max-w-7xl text-left items-center py-20 text-white md:px-5 xs:px-5 '>
+          <h2 className='text-white uppercase text-[34px] font-extrabold relative pl-7 leading-10 '>
             <span className='font-light'>Are You Ready </span><br></br>
             To Be On The List Of <br></br> Best-Selling Authors? <br></br>
             Let’s Work Together!

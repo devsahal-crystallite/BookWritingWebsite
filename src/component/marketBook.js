@@ -9,22 +9,22 @@ const marketBook = () => {
     return (
 
         <>
-            <section className="bg-process-bg22 bg-contain bg-no-repeat relative pt-10 pb-10 text-[#05193c]">
-                <div className="container mx-auto justify-center items-center pt-10 pb-14">
-                    <div className='max-w-7xl mx-auto grid grid-cols-2 grid-rows-1 justify-center items-center'>
+            <section className="bg-process-bg22 bg-contain bg-no-repeat relative text-[#05193c]">
+                <div className="container mx-auto justify-center items-center py-10">
+                    <div className='max-w-7xl mx-auto grid grid-cols-2 grid-rows-1 justify-center items-center xs:grid-cols-1 xs:gap-2'>
                         <div className="col-md-6 pl-5">
                             <div className="heading">
                                 <h6>
                                     Market Your Book
                                 </h6>
-                                <h2 className='lg:text-[34px] font-semibold mt-2'>
+                                <h2 className='text-[34px] font-semibold mt-2'>
                                     In The Best Possible Way!
                                 </h2>
-                                <p className='lg:text-[17px] font-normal'>
+                                <p className='text-[17px] font-normal'>
                                     Keep yourself up to date with news of our brand in popular outlets and channels, Barnett ghostwriting is frequently featured due to the exceptional work&nbsp;of&nbsp;our&nbsp;writers.
                                 </p>
                             </div>
-                            <ul className='grid grid-cols-2 grid-rows-1 gap-4 p-2'>
+                            <ul className='grid grid-cols-2 grid-rows-1 gap-4 p-2 xs:grid-cols-1 xs:p-0 xs:py-10 '>
                                 <li className='flex bg-gradient-to-r from-yellow-100 to-slate-50 rounded-2xl items-center px-3 p-3'>
                                     <img src="/assets/images/newimg/black-check.png" alt="" />Video Trailer</li>
                                 <li className='flex bg-gradient-to-r from-yellow-100 to-slate-50 rounded-2xl items-center px-3 p-3'>
@@ -64,7 +64,7 @@ const marketBook = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="z-10">
+                        <div className="z-10 xs:z-0 xs:py-5">
                             <img src="/assets/images/newimg/editing-img.webp" className="float-left" alt="ghostwriting agency" />
                         </div>
                     </div>

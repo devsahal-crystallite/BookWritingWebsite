@@ -6,9 +6,9 @@ const writingservices = () => {
     return (
         <>
 
-            <div className="lg:container-xl bg-second-section-2 bg-cover bg-no-repeat mx-auto  gap-2 p-8 ">
-                <div className='lg:max-w-7xl mx-auto grid grid-cols-5 grid-rows-1 items-center justify-center space-x-2'>
-                    <div><h4 className='text-[24px] font-[800]'>Exceptional Book
+            <div className="container-xl bg-second-section-2 bg-cover bg-no-repeat mx-auto  p-8 ">
+                <div className='max-w-7xl mx-auto grid grid-cols-5 grid-rows-1 items-center justify-center space-x-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 '>
+                    <div><h4 className='text-[24px] font-[800] md:py-5 md:text-[28px] xs:text-[28px] xs:py-5'>Exceptional Book
                         Writing Services!</h4></div>
 
                     <div>

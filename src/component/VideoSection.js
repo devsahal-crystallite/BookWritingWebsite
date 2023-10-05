@@ -5,8 +5,8 @@ const VideoSection = () => {
   return (
     <>
       <section className="video-test py-8">
-    <div className="container lg:max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="container max-w-7xl mx-auto">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-4 xs:grid-cols-1 xs:p-2">
             <div className="col-span-1 md:col-span-1">
                 <div className="rclient-item text-center relative">
                     <Link className="rc_play" data-fancybox="" href="https://www.youtube.com/watch?v=HvkOTriCo7U">
