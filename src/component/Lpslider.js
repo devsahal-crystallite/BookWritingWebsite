@@ -30,9 +30,17 @@ const LpSlider = () => {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1.3,
+                    slidesToScroll: 1,
                 }
             }
+
         ]
     };
     
