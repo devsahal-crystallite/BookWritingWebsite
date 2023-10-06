@@ -12,7 +12,7 @@ const creativeGhostWriters = () => {
                         <h6 className="font-semibold">
                             Our Creative Ghostwriters,
                         </h6>
-                        <h2 className='lg:text-4xl font-bold'>
+                        <h2 className='text-4xl font-bold'>
                             Bringing Your <br /> Imagination To Life.
                         </h2>
                         <p className="mt-4 max-w-[60%] mx-auto">
@@ -30,7 +30,7 @@ const creativeGhostWriters = () => {
                                         Our fiction ghostwriters will assist you in creatively expressing your ideas into enticing literacy that will captivate your audience. All aspects of a story are considered, particularly the author's original major plot and characters.
                                     </p>
                                 </li>
-                                <li className="mb-6 lg:mt-8">
+                                <li className="mb-6 mt-8">
                                     <h4 className="text-xl font-semibold bg-gradient-to-r from-yellow-100 to-slate-50 rounded-2xl items-center px-3 py-1">
                                         Informative
                                     </h4>
@@ -54,7 +54,7 @@ const creativeGhostWriters = () => {
                                         Our well-trained and experienced writers are well-versed in all aspects of children's books. They use their ingenuity to write classic subjects that young minds can understand, with vibrant graphics that keep them hooked.
                                     </p>
                                 </li>
-                                <li className="mb-6 lg:mt-8">
+                                <li className="mb-6 mt-8">
                                     <h4 className="text-xl font-semibold bg-gradient-to-r from-yellow-100 to-slate-50 rounded-2xl items-center px-3 py-1">
                                         Self Help Book
                                     </h4>

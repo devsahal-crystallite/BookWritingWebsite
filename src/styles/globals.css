@@ -386,7 +386,10 @@ section.headercontactform:before {
 }
 
 
-
+.aboutus{
+  background: url('/assets/images/newimg/editing-banner.webp');
+  background-repeat: no-repeat;
+}
 .affo{
   background: url('/assets/images/newimg/ghost-banner.png');
   background-repeat: no-repeat;

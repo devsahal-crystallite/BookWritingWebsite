@@ -18,7 +18,7 @@ const bookWriting = () => {
                             <h6>
                                 Are you in Pursuit of
                             </h6>
-                            <h2 className='lg:text-[34px] font-bold capitalize leading-10'>
+                            <h2 className='text-[34px] font-bold capitalize leading-10'>
                                 Getting Your Book Written By<br></br>
                                 the Top Industry Experts?
                             </h2>
@@ -30,8 +30,8 @@ const bookWriting = () => {
                         <p className='text-[15px] text-[#05193c] mb-4 leading-6	'>
                             To give our customers a high-end result, we have hired professional experts with years of experience that are the most demanded. Therefore, don’t worry while choosing Barnett Ghostwriting for your service because working with us means getting the best.
                         </p>
-                        <ul>
-                            <li className='flex'>
+                        <ul className=''>
+                            <li className='flex xs:py-5 xs:justify-between '>
                                 <img src="/assets/images/newimg/black-check.png" alt="" />Being published on all online platforms, such as Kindle.
                             </li>
                             <li className='flex'>
@@ -45,8 +45,8 @@ const bookWriting = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="z-10">
-                        <img src="/assets/images/newimg/pursuit-img.webp" className="float-left max-w-[unset] absolute top-10 right-0 xs:relative" alt="ghostwriting agency" />
+                    <div className="z-10 xs:z-0">
+                        <img src="/assets/images/newimg/pursuit-img.webp" className="float-left max-w-[unset] absolute top-10 right-0 xs:relative xs:float-none xs:w-[100%] xs:left-0" alt="ghostwriting agency" />
                     </div>
                     </div>
                     

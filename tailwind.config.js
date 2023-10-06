@@ -38,6 +38,9 @@ module.exports = {
         50: '.5',
         75: '.75',
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans'],
+      },
       backgroundPosition: {
         bottom: 'bottom',
         'bottom-4': 'center bottom 1rem',
@@ -78,5 +81,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

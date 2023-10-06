@@ -82,7 +82,7 @@ function App() {
                 <div className="p-4 heading items-center justify-center mx-auto text-center">
                     <h6>FAQS</h6>
                     <h2 className="text-[34px] font-bold ">Frequently Asked Questions</h2>
-                    <p className="lg:max-w-[70%] mx-auto mb-10 text-[#05193c] font-normal text-[17px]">
+                    <p className="max-w-[70%] mx-auto mb-10 text-[#05193c] font-normal text-[17px]">
                         Reach Out to us for any Assistance
                     </p>
                     <div className="grid grid-cols-2 grid-rows-1 xs:grid-cols-1 md:grid-cols-1 justify-between text-left">

@@ -9,7 +9,7 @@ const demandingSpecilaist = () => {
 
                     <div className='container max-w-7xl mx-auto py-24 grid grid-cols-2 grid-rows-1 md:px-6 xs:grid-cols-1 xs:grid-rows-1 xs:py-10 xs:px-2'>
                         <div
-                            className="absolute top-0 left-0 w-[998px] h-[705px] bg-no-repeat"
+                            className="absolute top-0 left-0 w-[998px] h-[705px] bg-no-repeat xs:hidden"
                             style={{ backgroundImage: "url('/assets/images/newimg/exceptional-patern.png')" }}
                         ></div>
                         <div>

@@ -37,7 +37,7 @@ const Header = () => {
               <nav className="flex md:hidden sm:hidden xs:hidden  space-x-4 text-[14px] text-[#000] font-semibold">
                 <ul className="flex space-x-6 text-[#000]">
                   <li><Link href="/" className=" hover:text-indigo-500">Home</Link></li>
-                  <li><Link href="/about-us" className="hover:text-indigo-500">About</Link></li>
+                  <li><Link href="/aboutus" className="hover:text-indigo-500">About</Link></li>
                   <li className="group relative">
                     <Link href="javascript:;" className=" hover:text-indigo-500">Writing Services  </Link><FontAwesomeIcon icon={faCaretDown} />
                     <ul className="absolute space-y-4 hidden items-center mx-auto py-3 px-10 text-center justify-center w-[240px] bg-[#2b2460] text-white z-10 border border-gray-200 group-hover:block hover:text-white">

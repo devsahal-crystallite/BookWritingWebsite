@@ -4,7 +4,7 @@ const faqs = () => {
     return (
         <>
             <section  className="faqs bg-gray-100 py-8">
-    <div  className="container max-w-7xl lg:max-w-7xl mx-auto">
+    <div  className="container max-w-7xl max-w-7xl mx-auto">
         <div  className="text-center">
             <h6  className="text-gray-600">FAQs</h6>
             <h2  className="text-3xl font-bold mt-2">Frequently Asked Questions</h2>
@@ -12,7 +12,7 @@ const faqs = () => {
         </div>
         <div  className="faqs-wrapper mt-6">
             <div  className="accordion" id="faq">
-                <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                <div  className="grid grid-cols-1 md:grid-cols-2 grid-cols-2 gap-4">
                     <div  className="col-span-1">
                         <div  className="card">
                             <div  className="card-header" id="faqhead1">

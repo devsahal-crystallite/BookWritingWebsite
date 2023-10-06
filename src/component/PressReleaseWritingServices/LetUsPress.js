@@ -12,7 +12,7 @@ const creativeGhostWriters = () => {
                         <h6 className="font-semibold">
                             GET YOUR
                         </h6>
-                        <h2 className='lg:text-4xl font-semibold'>
+                        <h2 className='text-4xl font-semibold'>
                             Press Releases Covered <br />  By The Right Sites 
                         </h2>
                         <p className="mt-4 max-w-[60%] mx-auto">

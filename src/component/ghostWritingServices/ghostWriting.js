@@ -11,11 +11,11 @@ const ghostWriting = () => {
       <div className="container max-w-7xl text-white py-16 px-5">
         <div className="heading text-left mb-5">
           <h6>Our Comprehensive</h6>
-          <h2 className='lg:text-4xl font-bold'>Ghostwriting Services</h2>
-          <p className='lg:text-lg'>
+          <h2 className='text-4xl font-bold'>Ghostwriting Services</h2>
+          <p className='text-lg'>
             We have a vast pool of ghostwriters and will work with you to find the best match for your needs. You will receive a PR and media campaign, an audiobook with a professional voice actor, and high-quality studio production. Finally, distribution and retailer accounts will be established in your name, ensuring you own all rights and royalties.
           </p>
-          <p className='lg:text-lg'>
+          <p className='text-lg'>
             Our process is simple and aims to deliver flawless results for every project.
           </p>
         </div>
